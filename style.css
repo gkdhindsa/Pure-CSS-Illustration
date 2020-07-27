@@ -1,0 +1,254 @@
+.container{
+  background-color: #eeeeee;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+.minion-body{
+  background-color: #FFE56A;
+  height: 250px;
+  width: 150px;
+  position: relative;
+  top: 100px;
+  left: 175px;
+  border-radius: 75px 75px 30px 30px;
+  border: 1px solid black;
+  z-index:2;
+}
+.eye-l,.eye-r{
+  border-radius: 50%;
+  width: 60px;
+  height:60px;
+  background-color:white;
+  border: 7px solid #D9DAD1;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1), 0px 0px 0px 1px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1), 0px 0px 0px 1px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,1), 0px 0px 0px 1px rgba(0,0,0,1);
+
+}
+.eye-l{
+  position: absolute;
+  top: 50px;
+  left: 5px;
+}
+.eye-r{
+  position: absolute;
+   top: 50px;
+   left: 71px;
+  
+}
+.eyeball-outer-l, .eyeball-outer-r{
+  background-color: #8D513A;
+  border-radius: 50%;
+  width:25px;
+  height: 25px;
+  position: absolute;
+  z-index:4;
+}
+.eyeball-outer-l{
+  left: 25px;
+  top:25px;
+}
+.eyeball-outer-r{
+  left: 10px;
+  top: 25px;
+}
+.eyeball-inner-l, .eyeball-inner-r{
+  background-color: black;
+  border-radius: 50%;
+  width:15px;
+  height: 15px;
+  position: absolute;
+}
+.eyeball-inner-l{
+  left: 5px;
+  top: 5px;
+}
+.eyeball-inner-r{
+  left: 5px;
+  top: 5px;
+}
+.smile{
+  width:45px;
+  height:10px;
+  border-radius:45%;
+  border-bottom: 1px solid rgb(0,0,0,0.7);
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
+.top{
+  width: 80px;
+  height: 50px;
+  background-color: #6B9EC9;
+  position: absolute;
+  top: 170px;
+  left: 35px;
+  border-radius: 10px 10px 0 0;
+  z-index: 3;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.bottom{
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  background-color: #6B9EC9;
+  top: 210px;
+  left: -1px;
+  z-index: 2;
+  border-radius: 0px 0px 30px 30px;
+  border: 1px solid black;
+}
+.glass-r, .glass-l{
+  position: absolute;
+  background-color: #756969;
+  height: 15px;
+  width: 10px;
+  border: 1px solid black;
+  z-index:2;
+}
+.glass-l{
+  top: 80px;
+  left: -5px;
+  transform: rotate(-5deg);
+}
+.glass-r{
+  top: 80px;
+  right: -5px;
+  transform: rotate(5deg);
+}
+.leg-r{
+  position: absolute;
+  border: 1px solid black;
+  background-color: #6B9EC9;
+  width: 20px;
+  height: 30px;
+  top: 250px;
+  left: 40px;
+  transform: rotate(-3deg);
+  z-index:1;
+}
+.leg-l{
+  position: absolute;
+  border: 1px solid black;
+  background-color: #6B9EC9;
+  width: 20px;
+  height: 30px;
+  top: 250px;
+  left: 85px;
+  transform: rotate(3deg);
+  z-index:1;
+}
+.btn-l, .btn-r{
+  position: absolute;
+  background-color: #222222;
+  border: 1px solid black;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  
+}
+.btn-l{
+  top: 178px;
+  left: 40px;
+  z-index:90;
+} 
+.btn-r{
+  z-index:90;
+  top: 178px;
+  left: 96px;
+}
+.strap-l,.strap-r{
+  position: absolute;
+  width: 15px;
+  height: 65px;
+  background-color: #6B9EC9;
+  border: 1px solid black;
+  top: 130px;
+}
+.strap-l{
+  left: 15px;
+  transform: rotate(-45deg) skew(0, -45deg);
+  z-index: 6;
+}
+.strap-r{
+  left: 119px;
+  transform: rotate(45deg) skew(0, 45deg);
+  z-index: 6;
+}
+.arm-l, .arm-r{
+  position: absolute;
+  height: 70px;
+  width: 16px;
+  border-radius: 50% 50% 0 0;
+  background-color: #FFE56A;
+  z-index:1; 
+  border: 1px solid black;
+}
+.arm-l{
+  left: 160px;
+  transform: rotate(10deg);
+}
+.arm-r{
+  left:324px;
+  transform: rotate(-10deg);
+}
+.pocket{
+  background-color: rgb(107,158,201);
+   position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 0 0 40% 40%;
+  top: 15px;
+  left: 22px; 
+}
+.shoe-body-l, .shoe-body-r{
+  position: absolute;
+  background-color: black;
+  width: 17px;
+  height: 25px;
+  z-index: -1;
+  border-radius: 5px;
+}
+.shoe-body-l{
+  top: 270px;
+  left: 42px;
+  transform: rotate(50deg);
+}
+.shoe-body-r{
+  transform: rotate(-50deg);
+  top: 270px;
+  left: 87px;
+}
+.shoe-top-l, .shoe-top-r{
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.shoe-top-l{
+  top: 278px;
+  left: 33px;
+}
+.shoe-top-r{
+  top: 278px;
+  left: 95px;
+}
+.hand-l, .hand-r{
+  border-radius: 0 0 40% 40%;
+  height: 20px;
+  width: 18px;
+  position: absolute;
+  background-color: black;
+  top:60px;
+  left: -1px;
+}
